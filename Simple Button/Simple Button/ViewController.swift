@@ -10,7 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelShow: UILabel!
     
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        
+        labelShow.text = "Pressed"
+        
+    }
     
     
     
